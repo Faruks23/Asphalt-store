@@ -1,0 +1,102 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rounded-md:hover{
+  top: 180px;
+  cursor: pointer;
+}
+.rounded-md{
+  transition: all 0.5s ease-in-out;
+  transform: translate(0.6);
+}
+.sprt{
+  text-transform: uppercase;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-right: 1px solid rgb(206, 204, 204);
+   
+}
+
+.card {
+  max-width: 100%;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 80px;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.card-details {
+  width: 50%;
+  /* margin-bottom: 20px; */
+}
+
+.card-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.card-discount {
+  font-size: 14px;
+  color: #e84c3d;
+  margin-bottom: 5px;
+}
+
+.card-btn {
+  padding: 10px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.offer-img{
+ transition: all 0.5s ease-in-out;
+ transform: scale(0.9);
+}
+.offer-img:hover{
+ 
+ cursor: pointer;
+ transform: scale(1);
+}
